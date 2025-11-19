@@ -6,7 +6,6 @@ from tkinter import ttk
 from tkinter import filedialog
 import json
 from tkinter import messagebox
-import base64
 
 
 keys = {}
@@ -158,5 +157,6 @@ encodemainbtn = ttk.Button(root,text="encode",width=55,command=cwe)
 decodemainbtn = ttk.Button(root,text="decode",width=55,command=cwd)
 encodemainbtn.pack()
 decodemainbtn.pack()
+
 
 root.mainloop()
